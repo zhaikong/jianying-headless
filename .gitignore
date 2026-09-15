@@ -7,8 +7,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
-.env
-.env.*
 !.env.example
 
 # Rebuilt locally from our bridge source; not a bundled official engine.
@@ -46,3 +44,5 @@ draft_meta_info.json
 root_meta_info.json
 draft_content.json
 key_value.json
+config.bat
+node_modules
