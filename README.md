@@ -108,12 +108,12 @@ python3 skills/yichen-jianying-edit/scripts/headless_draft.py export \
 保留 pyJianYingDraft 的历史使用关系、jy-draftc 的 MIT 声明和各外部工具的许可边界，
 不宣称整套链路完全原创或经过洁净室重写。详见 [第三方声明](THIRD_PARTY_NOTICES.md)。
 
-原创部分的统一许可由仓库所有者单独选择；以根目录 `LICENSE` 的明示范围为准。
-如尚无根 `LICENSE`，则该选择仍待确认。`licenses/` 中的第三方文本不自动授权整个项目。
-无论最终选用何种代码许可证，都不能代替剪映集成授权、账号权益或素材许可。
+原创部分沿用[个人学习和非商业使用许可](LICENSE)，商业使用需事先取得作者明确书面授权。
+这不是 MIT / Apache-2.0 的整包开源授权；第三方内容继续适用各自原许可证，不受新增限制取代。
+`licenses/` 中的第三方文本不自动授权整个项目，也不能代替剪映集成授权、账号权益或素材许可。
 
-本次发布没有改变已有公开 Skill 总仓库的可见性。是否把该 Skill 推送到公开总仓库，
-按本次单独确认的范围处理，不因项目已私有上传而自动公开。
+经单独授权，Skill 收录于公开的 [yichen-skills 总仓库](https://github.com/mcncarl/yichen-skills/tree/main/yichen-jianying-edit)。
+该目录仅包含 Skill、调用入口和口播辅助脚本；本核心项目继续保持私有，公开 Skill 不授予核心访问权限。
 
 ## 可重复验证
 
