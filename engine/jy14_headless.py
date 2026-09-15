@@ -5,6 +5,10 @@ Media is copied into the new draft's Resources directory. Existing drafts and
 global bookmark stores are never edited. Native UI acceptance is a separate
 step. All times in the plan are integer microseconds.
 """
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 from copy import deepcopy
 import ctypes

@@ -3,6 +3,9 @@
 这是 Jianying Headless 的独立 Agent Skill，包含说明、口播计划编译器及固定哈希的
 调用入口。它不包含剪映引擎，也不把私有核心源码复制进安装后的 Skill 目录。
 
+Skill 公开收录于 [yichen-skills](https://github.com/mcncarl/yichen-skills/tree/main/yichen-jianying-edit)，
+核心项目继续保持私有；公开入口不代表无需核心访问权限即可运行。
+
 ## 安装
 
 1. 使用有权限的账号检出 [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless)。
@@ -31,3 +34,8 @@ Apple Silicon macOS、Python 3.9+、FFmpeg / ffprobe、Xcode 编译工具，以�
 详细操作见 [SKILL.md](SKILL.md)。本 Skill 不授权自动上传视频、公开草稿、购买资源
 或将剪映官方文件重新分发。来源和许可边界见
 [dependencies-and-notices.md](references/dependencies-and-notices.md)。
+
+## 许可
+
+原创部分采用[个人学习和非商业使用条款](LICENSE)，商业用途须取得作者明确书面授权。
+第三方内容保留各自原许可证；本 Skill 不授予剪映程序库、账号、素材或服务的使用权。
